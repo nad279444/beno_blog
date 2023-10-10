@@ -1,0 +1,36 @@
+<main>
+  <div class="profile">
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat
+        et ex neque iste accusamus omnis aut atque ipsa fugit quisquam eaque,
+        perferendis sint? Quasi repellendus quis explicabo officiis minus.
+      </p>
+    </div>
+    <img
+      src="public/assets/avatar.svg"
+      alt="an avatar"
+      width="250px"
+      height="100px"
+    />
+  </div>
+</main>
+
+<style>
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+  }
+
+  @media (max-width: 600px) {
+    .profile {
+      flex-direction: column;
+    }
+  }
+
+  p {
+    padding: 0 -50px;
+  }
+</style>
